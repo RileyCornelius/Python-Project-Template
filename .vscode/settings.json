@@ -1,0 +1,19 @@
+{
+    // formatting
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    // change line length to 160 black defaults to 88
+    "black-formatter.args": [
+        "--line-length",
+        "160"
+    ],
+    "python.envFile": "${workspaceRoot}/.env",
+    "python.terminal.activateEnvironment": true,
+    // hide files in the explorer
+    "files.exclude": {
+        "**/.git": true,
+        "**/__pycache__": true
+    },
+}
