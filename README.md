@@ -16,4 +16,4 @@
 
 ### Run
 1. Open a new terminal `ctrl + shift + ~` this will activate the environment 
-2. Execute `python app/app.py`
+2. Execute `python src/main.py`
