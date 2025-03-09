@@ -3,7 +3,15 @@
     "[python]": {
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        },
     },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
     // change line length to 160 black defaults to 88
     "black-formatter.args": [
         "--line-length",
